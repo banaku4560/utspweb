@@ -113,6 +113,18 @@ td {
 .tabel-forum-bawah tr {
     background-color: lightgreen
 }
+button[type='button'] {
+    width: 15%;
+    height: 40px;
+    background-color: lightgreen;
+    border: 2px green;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 42%;
+    margin-bottom: 100px;
+}
 
 
 /*footer*/
