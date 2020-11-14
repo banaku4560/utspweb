@@ -34,7 +34,7 @@
 }
 
 /* Body */
-.body{
+body{
     background-color:rgba(131, 131, 131, 0.651);
     margin:auto;
     color: black;
