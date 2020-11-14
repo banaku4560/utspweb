@@ -69,7 +69,7 @@ input[type="number"]{
     margin-left: 50px;
     margin-bottom: 15px;
 }
-input[type='submit'] {
+button[type='button'] {
     width: 20%;
     height: 30px;
     border: 2px rgb(15, 77, 97);
