@@ -202,6 +202,7 @@ button[type='button'] {
     height: 55%;
     background-color: lightgreen;
     border: 2px solid darkgreen;
+    border-radius: 15px;
 }
 .edit-profil-title,.foto-profil,.button-edit-foto-profil,.button-simpan{
     display: flex;
