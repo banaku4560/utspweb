@@ -1,68 +1,54 @@
 *{
     padding: 0px;
     box-sizing: border-box;
-
 }
-
-
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
     padding-bottom: 74px;
     min-height: 98vh;
 }
-
 header{
     background: linear-gradient(to top, #1aba0b, #ffffff);
     display: flex;
     margin: auto;
     align-items: center;
 }
-
 .logo-container,.nav-links,.header-text{
     display: flex;
 }
-
 .logo-container{
     flex: 1;
 }
-
 .header-text{
     flex: 3;
     justify-content: center;
 }
-
 nav{
     flex: 1;
 }
-
 .nav-links{
     justify-content: space-around;
     list-style: none;
 }
-
 .profil{
     display: flex;
     flex: 1;
 }
-
 .logged-user{
     flex: 1;
     margin: 10px;
     text-decoration: none;
 }
-
 .logout-button{
     flex: 1;
     margin: 10px;
 }
-
 .nav-link{
     color: #5f5f79;
     text-decoration: none;
     justify-content: flex-end;
 }
-
 .login-box{
     max-width: 600px;
     width: 100%;
@@ -119,6 +105,303 @@ button[type='button'] {
     font-size: 14px;
     padding-left: 50px;
 }
+
+/*edit-password*/
+.edit-password-body{
+    width: 100%;
+    height: 100%;
+    padding: 50px
+}
+.edit-password-box{
+    max-width: 600px;
+    width: 100%;
+    height: 300px;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
+.edit-password-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*edit-password*/
+
+/*edit-profil*/
+.form-edit-profil{
+    margin: 10px;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    height: 55%;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
+.edit-profil-title{
+    margin: 10px;
+}
+.foto-profil{
+    margin: 10px;
+}
+.edit-profil-box{
+    margin: 10px;
+}
+/*edit-profil*/
+
+/*beranda-forum*/
+.judul-halaman-atas {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.atas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+}
+.tabel-forum-atas {
+    margin-left: 19%;
+}
+.tabel-forum-atas tr th {
+    background: green;
+    color: white;
+    font-weight: normal;
+}
+.tabel-forum-atas th,
+td {
+    padding: 8px 20px;
+    text-align: center;
+}
+.tabel-forum-atas tr {
+    background-color: lightgreen;
+}
+.bawah {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+}
+.tabel-forum-bawah {
+    margin-left: 19%;
+}
+.judul-halaman-bawah {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.tabel-forum-bawah tr th {
+    background: green;
+    color: #fff;
+    font-weight: normal;
+}
+.tabel-forum-bawah th,
+td {
+    padding: 8px 20px;
+    text-align: center;
+}
+.tabel-forum-bawah tr {
+    background-color: lightgreen
+}
+button[type='button'] {
+    width: 15%;
+    height: 40px;
+    background-color: lightgreen;
+    border: 2px green;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 42%;
+    margin-bottom: 100px;
+}
+/*beranda-forum*/
+
+/*add-forum*/
+.background-container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 65vh;
+}
+.tambahkan-forum {
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.judul-tambahkan-forum {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.judul-forum [type='text'] {
+    width: 80%;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.judul-forum-isi [type='text'] {
+    width: 80%;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 0px 10px 100px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.tombol-tambahkan button {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    font-weight: bold;
+    height: 40px;
+    width: 90px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    position: absolute;
+}
+/*add-forum*/
+
+/*beranda-order*/
+.content_container{
+    margin: 0 2%;
+    margin-bottom: 2%;
+}
+.tulisan_atas {
+    font-style: normal;
+    text-align: center;
+    margin: 20px;
+    padding: 0px 300px;
+    font-weight: bold;
+    background-origin: padding-box;
+    background-image: linear-gradient(green,yellowgreen);
+}
+.content_container .container{
+    display:inline-grid;
+    grid: 50% / auto auto auto auto auto;
+    grid-gap: 10px;
+    text-align: center;
+}
+.content_container .contain{
+    padding-left: 2%;
+}
+.content_container .contain img{
+    width: 100%;
+}
+.pagenumb_container{
+    margin-bottom: 1%;
+}
+.pagination,
+.pagination li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagination li{
+  background: green;
+  list-style: none;
+}
+.pagination li a{
+  text-decoration: none;
+  color: #fdfdfd;
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+  padding-top: 1px;
+  border: 1px solid rgba(0,0,0,0.25);
+  border-right-width: 0px;
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35);
+}
+.pagination li:last-child a{
+  border-right-width: 1px;
+}
+.pagination li a:hover{
+  background: rgba(255,255,255,0.2);
+  border-top-color: rgba(0,0,0,0.35);
+  border-bottom-color: rgba(0,0,0,0.5);
+}
+.pagination li a:focus,
+.pagination li a:active{
+  padding-top: 4px;
+  border-left-width:1px;
+  background: rgba(255,255,255, 0.15);
+  box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.25);
+}
+.pagination li.icon a{
+  min-width: 120px;
+}
+.pagination li:first-child span{
+  padding-right: 8px;
+}
+.pagination li:last-child span{
+  padding-left: 8px;
+}
+/*beranda-order*/
+
+/*order*/
+.tampilan-produk{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.gambar-produk{
+    margin: 50px 0px 50px 0px;
+}
+.keterangan-produk{
+    margin: 50px 50px 50px 50px;
+}
+.nama-produk{
+    margin: auto;
+}
+.harga-produk{
+    display: flex;
+    margin: 30px 0px 30px 0px;
+}
+.harga-produk-title{
+    flex: 1;
+}
+.harga-produk-harga{
+    flex: 1;
+}
+.jumlah-produk{
+    display: flex;
+    margin: 30px 0px 30px 0px;
+}
+.jumlah-produk-title{
+    flex: 1;
+}
+.jumlah-produk-tambah{
+    flex: 1;
+}
+.pengiriman{
+    margin: auto;
+}
+.tombol-pengiriman{
+    margin: 30px 0px 30px 0px;
+}
+/*order*/
+
 .beranda-presentation{
     display: flex;
     width: 90%;
@@ -151,7 +434,6 @@ button[type='button'] {
 .beranda-headline-title{
     background: linear-gradient(to bottom, #1aba0b, #95eb44);
 }
-
 footer{
     background: linear-gradient(to bottom, #1aba0b, #ffffff);
     display: flex;
