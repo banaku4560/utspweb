@@ -14,6 +14,8 @@ header{
     margin: auto;
     align-items: center;
 }
+
+/*navbar*/
 .logo-container,.nav-links,.header-text{
     display: flex;
 }
@@ -31,6 +33,45 @@ nav{
     justify-content: space-around;
     list-style: none;
 }
+.nav-link{
+    color: #5f5f79;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+/*navbar*/
+
+/*beranda*/
+.beranda-presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.beranda-introduction{
+    display: flex;
+}
+.beranda-intro-title{
+    background: linear-gradient(to bottom, #1aba0b, #95eb44);
+    color: white;
+}
+.beranda-gambar-petani{
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.beranda-headline{
+    display: flex;
+    margin: auto;
+}
+.beranda-headline-title{
+    background: linear-gradient(to bottom, #1aba0b, #95eb44);
+    color: white;
+}
+/*beranda*/
+
+/*beranda-logged-in*/
 .profil{
     display: flex;
     flex: 1;
@@ -44,11 +85,8 @@ nav{
     flex: 1;
     margin: 10px;
 }
-.nav-link{
-    color: #5f5f79;
-    text-decoration: none;
-    justify-content: flex-end;
-}
+/*beranda-logged-in*/
+
 /*login*/
 .login-box{
     padding: 0px;
@@ -412,38 +450,6 @@ button[type='button'] {
 }
 /*order*/
 
-.beranda-presentation{
-    display: flex;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-}
-
-.beranda-introduction{
-    display: flex;
-}
-
-.beranda-intro-title{
-    background: linear-gradient(to bottom, #1aba0b, #95eb44);
-}
-
-.beranda-gambar-petani{
-    justify-content: center;
-    display: flex;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-}
-
-.beranda-headline{
-    display: flex;
-
-    margin: auto;
-}
-
-.beranda-headline-title{
-    background: linear-gradient(to bottom, #1aba0b, #95eb44);
-}
 footer{
     background: linear-gradient(to bottom, #1aba0b, #ffffff);
     display: flex;
