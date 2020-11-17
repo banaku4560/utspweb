@@ -191,7 +191,7 @@ button[type='button'] {
 
 /*edit-profil*/
 .form-edit-profil{
-    margin: 10px;
+    margin: 50px auto;
     align-items: center;
     max-width: 600px;
     width: 100%;
@@ -199,11 +199,10 @@ button[type='button'] {
     background-color: lightgreen;
     border: 2px solid darkgreen;
 }
-.edit-profil-title{
+.edit-profil-title,.foto-profil,.button-edit-foto-profil,.button-simpan{
+    display: flex;
     margin: 10px;
-}
-.foto-profil{
-    margin: 10px;
+    justify-content: center;
 }
 .edit-profil-box{
     margin: 10px;
@@ -478,12 +477,13 @@ footer{
 }
 
 .footer-text{
+    margin: 10px;
     flex: 1;
 }
 
 .facebook,.whatsapp,.instagram{
     justify-content: space-around;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 10px 0px 10px;
 }
 
 
