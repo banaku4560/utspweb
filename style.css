@@ -69,6 +69,17 @@ nav{
     background: linear-gradient(to bottom, #1aba0b, #95eb44);
     color: white;
 }
+.beranda-pencarian{
+    margin: auto;
+    display: flex;
+}
+.beranda-pencarian-box{
+    justify-content: left;
+    width: 250px;
+}
+.button-search{
+    margin: 0px 0px 0px 10px;
+}
 /*beranda*/
 
 /*beranda-logged-in*/
@@ -77,11 +88,13 @@ nav{
     flex: 1;
 }
 .logged-user{
+    color: white;
     flex: 1;
     margin: 10px;
     text-decoration: none;
 }
 .logout-button{
+    text-decoration: none;
     flex: 1;
     margin: 10px;
 }
