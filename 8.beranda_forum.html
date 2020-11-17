@@ -5,53 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum</title>
-    <link rel="stylesheet" href="8.beranda_forum.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="po">
-            <img src="img/logo.png" alt="logo vanilli">
-
+    <header>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
         </div>
-        <h1>Komunitas Petani Vanilli Banyuwangi</h1>
-        <div class="menu">
-            <nav>
-                <i><a href="4.beranda_loggedin.html">Beranda</a></i>
-                <i><a href="10.beranda_pemesanan.html">Pemesanan</a></i>
-                <i><a href="8.beranda_forum.html">Forum</a></i>
-                <i><a href="6.ganti_pass.html" >Setting</a></i>
-                <div class="profil">
-                    <p>Selamat Datang, <a href="7.editprofil.html">Bagus Nayoko</a><a href="index.html">Logout</a></p>
-                </div>
-            </nav>
+        <div class="header-text">
+            <h1>KOMUNITAS PETANI VANILLI BANYUWANGI</h1>
         </div>
-    </div>
-    <div class="atas">
-        <div class="judul-halaman-atas">Forum Terbaru</div>
-        <div class="tabel-forum-atas">
-            <table>
-                <tr>
-                    <th>Dibuat Oleh</th>
-                    <th>Judul Forum</th>
-                    <th>Jumlah Pengguna Masuk</th>
-                    <th>Terakhir Diubah</th>
-                </tr>
-                <tr>
-                    <td>User19023</td>
-                    <td>Cara Menanam Vanilli</td>
-                    <td>19</td>
-                    <td>Senin, 05 Oktober 2020, oleh User21345</td>
-                </tr>
-                <tr>
-                    <td>User19273</td>
-                    <td>Cara Menjual Vanilli</td>
-                    <td>36</td>
-                    <td>Kamis, 01 Oktober 2020, oleh User99212</td>
-                </tr>
-            </table>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Beranda</a></li>
+                <li><a class="nav-link" href="10.beranda_pemesanan.html">Pemesanan</a></li>
+                <li><a class="nav-link" href="8.beranda_forum.html">Forum</a></li>
+                <li><a class="nav-link" href="2.login.html">Setting</a></li>
+            </ul>
+            <div class="profil">
+                <p>Selamat Datang, 
+                    <a class="logged-user" href="7.editprofil.html">Bagus Nayoko</a>
+                    <a class="logout-button" href="index.html">Logout</a></p>
+            </div>
+        </nav>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
         </div>
-    </div>
+    </header>
 
     <div class="bawah">
         <div class="judul-halaman-bawah">Forum Paling Banyak Di Kunjungi</div>
@@ -91,7 +74,19 @@
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
         </div>
     </div>
-
 </body>
-
+<footer>
+    <div class="footer-text">
+        <h2>Supported by @KebunVanilli.id</h2>
+    </div>
+    <div class="facebook">
+        <img src="./img/fb.png" alt="" height="30px">
+    </div>
+    <div class="whatsapp">
+        <img src="./img/wa.png" alt="" height="30px" >
+    </div>
+    <div class="instagram">
+        <img src="./img/ig.png" alt="" height="30px" >
+    </div>
+</footer>
 </html>

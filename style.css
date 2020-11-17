@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-bottom: 74px;
+    min-height: 98vh;
+}
+
+header{
+    background: linear-gradient(to top, #1aba0b, #ffffff);
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container,.nav-links,.header-text{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+.header-text{
+    flex: 3;
+    justify-content: center;
+}
+
+nav{
+    flex: 1;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.profil{
+    display: flex;
+    flex: 1;
+}
+
+.logged-user{
+    flex: 1;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.logout-button{
+    flex: 1;
+    margin: 10px;
+}
+
+.nav-link{
+    color: #5f5f79;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+.beranda-presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.beranda-introduction{
+    display: flex;
+}
+
+.beranda-intro-title{
+    background: linear-gradient(to bottom, #1aba0b, #95eb44);
+}
+
+.beranda-gambar-petani{
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.beranda-headline{
+    display: flex;
+
+    margin: auto;
+}
+
+.beranda-headline-title{
+    background: linear-gradient(to bottom, #1aba0b, #95eb44);
+}
+
+footer{
+    background: linear-gradient(to bottom, #1aba0b, #ffffff);
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text,.facebook,.whatsapp,.instagram{
+    display: flex;
+}
+
+.footer-text{
+    flex: 1;
+}
+
+.facebook,.whatsapp,.instagram{
+    justify-content: space-around;
+    margin: 0px 5px 0px 5px;
+}
+
+
+

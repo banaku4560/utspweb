@@ -4,57 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profil</title>
-    <link rel="stylesheet" href="7.editprofil.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="po">
-            <img src="img/logo.png" alt="logo vanilli">
-
+    <header>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
         </div>
-            <h1>Komunitas Petani Vanilli Banyuwangi</h1>
-            <div class = "menu">
-                <nav>
-                    <i><a href="4.beranda_loggedin.html">Beranda</a></i>
-                    <i><a href="10.beranda_pemesanan.html">Pemesanan</a></i>
-                    <i><a href="8.beranda_forum.html">Forum</a></i>
-                    <i><a href="6.ganti_pass.html" >Setting</a></i>
-                    <div class="profil">
-                        <p>Selamat Datang, <a href="7.editprofil.html">Bagus Nayoko</a><a href="index.html">Logout</a></p>
-                    </div>
-                </nav>
+        <div class="header-text">
+            <h1>KOMUNITAS PETANI VANILLI BANYUWANGI</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Beranda</a></li>
+                <li><a class="nav-link" href="10.beranda_pemesanan.html">Pemesanan</a></li>
+                <li><a class="nav-link" href="8.beranda_forum.html">Forum</a></li>
+                <li><a class="nav-link" href="2.login.html">Setting</a></li>
+            </ul>
+            <div class="profil">
+                <p>Selamat Datang, 
+                    <a class="logged-user" href="7.editprofil.html">Bagus Nayoko</a>
+                    <a class="logout-button" href="index.html">Logout</a></p>
             </div>
-    </div>
-    
-    <div class="body">
-        <div class="box">
-            <img src="img/profil.jpg" alt="gambar profil">
-            <h5><a href="">Tambahkan Profil</a></h5>
-            <h2 class="judul">Edit Profil</h2>
-            <form method="POST" action="Edit Profil">
-                <div class="Register">
-                    <input type="text" placeholder="Nama Lengkap"><br>
-                    <input type="text" placeholder="Alamat"><br>
-                    <input type="text" placeholder="Nama Pengguna"><br>
-                    <input type="number" placeholder="Nomor HP"><br>
-                    <a href="4.beranda_loggedin.html">
-                        <button type="button">Submit</button>
-                    </a>
+        </nav>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
+        </div>
+    </header>
+            <br> <br>
+            <div class="formstlprfl"><h1> Setel Profil </h1>
+                <div class="fotoprofil"> 
+                        <img width="100" src="./img/profil.jpg"/>
+                </div> <br>
+                <button><a href="ubahfoto.html">Ubah Foto Profil</a></button> <br> <br>
+                <div class="main">
+                    <form>
+                        <div id="nama">
+                            <input class="namalengkap" type="text" name="nama_lengkap" placeholder="Nama Lengkap"><br><br>
+                        </div>
+                        <div id="alamat">
+                            <input class="alamat" type="text" name="alamat" placeholder="Alamat"><br><br>
+                        </div>
+                        <div id="e-mail">
+                            <input class="e-mail" type="email" name="e-mail" placeholder="E-mail"><br><br>
+                        </div>
+                        <div id="username">
+                            <input class="username" type="text" name="username" placeholder="Nama Pengguna"><br><br>
+                        </div>
+                        <div id="notelp">
+                            <input class="notelp" type="text" name="notelp" placeholder="Nomor telepon"><br><br>
+                        </div>
+                        <div class="button-simpan">
+                            <a href="4.beranda_loggedin.html"><button>Simpan</button></a>  
+                        </div>
+                        <br> <br> <br>
+                        <a href="./6.ganti_pass.html">Ubah Kata Sandi</a> <br> <br>
+                    </form>
                 </div>
-            </form>
+            </div>
+    </body>
+    <footer>
+        <div class="footer-text">
+            <h2>Supported by @KebunVanilli.id</h2>
         </div>
-    </div>
-
-    <div class="footer">
-        <h2>Supported by @KebunVanilli.id</h2>
-
-        <div class="Medsos">
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <div class="facebook">
+            <img src="./img/fb.png" alt="" height="30px">
         </div>
-    </div>
-
-    
-</body>
+        <div class="whatsapp">
+            <img src="./img/wa.png" alt="" height="30px" >
+        </div>
+        <div class="instagram">
+            <img src="./img/ig.png" alt="" height="30px" >
+        </div>
+    </footer>
 </html>

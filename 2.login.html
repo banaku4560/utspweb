@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Setting</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,19 +20,31 @@
                 <li><a class="nav-link" href="index.html">Beranda</a></li>
                 <li><a class="nav-link" href="10.beranda_pemesanan.html">Pemesanan</a></li>
                 <li><a class="nav-link" href="8.beranda_forum.html">Forum</a></li>
-                <li><a class="nav-link" href="2.login.html">Setting</a></li>
+                <li><a class="nav-link" href="2.login.html">Masuk</a></li>
             </ul>
-            <div class="profil">
-                <p>Selamat Datang, 
-                    <a class="logged-user" href="7.editprofil.html">Bagus Nayoko</a>
-                    <a class="logout-button" href="index.html">Logout</a></p>
-            </div>
         </nav>
         <div class="logo-contaniner">
             <img src="./img/logo.png" alt="" width="100px" >
             <h4 class="logo"></h4>
         </div>
     </header>
+    
+    <div class="body">
+        <div class="box">
+            <h2>Login </h2>
+            <form method="POST" action="Form Pendaftaran">
+                <div class="Register">
+                    <input type="text" placeholder="Nama Pengguna/E-mail"><br>
+                    <input type="password" placeholder="Kata Sandi"><br>
+                    <a href="4.beranda_loggedin.html">
+                        <button type="button">Submit</button>
+                    </a>
+                </div>
+            </form>
+            <br>
+            <div class="signup">Belum Punya Akun? <a href="3.daftar_akun.html">Daftar Sekarang</a></div>
+        </div>
+    </div>
 </body>
 <footer>
     <div class="footer-text">

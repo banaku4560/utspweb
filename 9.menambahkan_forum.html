@@ -5,28 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menambahkan Forum</title>
-    <link rel="stylesheet" href="9.menambahkan_forum.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="po">
-            <img src="img/logo.png" alt="logo vanilli">
-
+    <header>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
         </div>
-        <h1>Komunitas Petani Vanilli Banyuwangi</h1>
-        <div class="menu">
-            <nav>
-                <i><a href="4.beranda_loggedin.html">Beranda</a></i>
-                <i><a href="10.beranda_pemesanan.html">Pemesanan</a></i>
-                <i><a href="8.beranda_forum.html">Forum</a></i>
-                <i><a href="2. Login.html" >Masuk</a></i>
-                <div class="profil">
-                    <p>Selamat Datang, <a href="7.editprofil.html">Bagus Nayoko</a><a href="index.html">Logout</a></p>
-                </div>
-            </nav>
+        <div class="header-text">
+            <h1>KOMUNITAS PETANI VANILLI BANYUWANGI</h1>
         </div>
-    </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Beranda</a></li>
+                <li><a class="nav-link" href="10.beranda_pemesanan.html">Pemesanan</a></li>
+                <li><a class="nav-link" href="8.beranda_forum.html">Forum</a></li>
+                <li><a class="nav-link" href="2.login.html">Setting</a></li>
+            </ul>
+            <div class="profil">
+                <p>Selamat Datang, 
+                    <a class="logged-user" href="7.editprofil.html">Bagus Nayoko</a>
+                    <a class="logout-button" href="index.html">Logout</a></p>
+            </div>
+        </nav>
+        <div class="logo-contaniner">
+            <img src="./img/logo.png" alt="" width="100px" >
+            <h4 class="logo"></h4>
+        </div>
+    </header>
 
     <div class="background-container">
         <div class="tambahkan-forum">
@@ -50,16 +58,19 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <h2>Supported by @KebunVanilli.id</h2>
-
-        <div class="Medsos">
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        </div>
-    </div>
-
 </body>
-
+<footer>
+    <div class="footer-text">
+        <h2>Supported by @KebunVanilli.id</h2>
+    </div>
+    <div class="facebook">
+        <img src="./img/fb.png" alt="" height="30px">
+    </div>
+    <div class="whatsapp">
+        <img src="./img/wa.png" alt="" height="30px" >
+    </div>
+    <div class="instagram">
+        <img src="./img/ig.png" alt="" height="30px" >
+    </div>
+</footer>
 </html>
