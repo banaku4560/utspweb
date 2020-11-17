@@ -298,51 +298,32 @@ button[type='button'] {
     height: 65vh;
 }
 .tambahkan-forum {
-    justify-content: center;
-    align-items: center;
     background-color: lightgreen;
-    width: 50%;
+    width: 70vh;
     height: 50vh;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 25%;
-    border-radius: 5px;
+    margin: 10px auto;
+    border-radius: 15px;
 }
 .judul-tambahkan-forum {
+    margin: 10px auto;
     text-align: center;
     font-weight: bold;
     font-size: 22px;
 }
 .judul-forum [type='text'] {
-    width: 80%;
     height: 30px;
     border: 2px solid grey;
     border-radius: 5px;
-    padding: 2px 10px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 10px;
+    justify-content: center;
 }
 .judul-forum-isi [type='text'] {
-    width: 80%;
-    height: 30px;
     border: 2px solid grey;
     border-radius: 5px;
-    padding: 0px 10px 100px;
-    margin-left: 50px;
-    margin-bottom: 10px;
+    height: 350px;
 }
-.tombol-tambahkan button {
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 20%;
-    font-weight: bold;
-    height: 40px;
-    width: 90px;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    position: absolute;
+.tombol-tambahkan{
+    display: flex;
+    justify-content: center;
 }
 /*add-forum*/
 
