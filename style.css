@@ -119,16 +119,19 @@ nav{
     margin: 10px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 /*login*/
+/*register*/
 .daftar-akun-box{
     align-items: center;
     max-width: 600px;
     width: 100%;
     height: 450px;
     background-color: lightgreen;
-    margin: 30px 400px;
+    margin: 30px auto;
     border: 2px solid darkgreen;
+    border-radius: 15px;
 }
 .daftar-akun-body{
     display: flex;
@@ -166,6 +169,7 @@ button[type='button'] {
     font-size: 14px;
     padding-left: 50px;
 }
+/*register*/
 
 /*edit-password*/
 .edit-password-body{
