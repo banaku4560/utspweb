@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Form Pendaftaran</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,9 +18,9 @@
         <nav>
             <ul class="nav-links">
                 <li><a class="nav-link" href="index.html">Beranda</a></li>
-                <li><a class="nav-link" href="10.beranda_pemesanan.html">Pemesanan</a></li>
-                <li><a class="nav-link" href="8.beranda_forum.html">Forum</a></li>
-                <li><a class="nav-link" href="2.login.html">Masuk</a></li>
+                <li><a class="nav-link" href="login.html">Pemesanan</a></li>
+                <li><a class="nav-link" href="beranda-forum.html">Forum</a></li>
+                <li><a class="nav-link" href="login.html">Masuk</a></li>
             </ul>
         </nav>
         <div class="logo-contaniner">
@@ -28,32 +28,43 @@
             <h4 class="logo"></h4>
         </div>
     </header>
-        <div class="login-box">
-            <h2 class="login-judul">Login</h2>
+    <div class="daftar-akun-body">
+        <div class="daftar-akun-box">
+            <h2 class="daftar-akun-judul">Daftar Akun Baru</h2>
             <form method="POST" action="Form Pendaftaran">
                 <div class="Register">
-                    <input type="text" placeholder="Nama Pengguna/E-mail"><br>
+                    <input type="text" placeholder="Nama Lengkap"><br>
+                    <input type="text" placeholder="Alamat"><br>
+                    <input type="email" placeholder="E-mail"><br>
+                    <input type="text" placeholder="Nama Pengguna"><br>
                     <input type="password" placeholder="Kata Sandi"><br>
-                    <a href="4.beranda_loggedin.html">
+                    <input type="password" placeholder="Konfirmasi Kata Sandi"><br>
+                    <input type="number" placeholder="Nomor HP"><br>
+                    <a href="login.html">
                         <button type="button">Submit</button>
                     </a>
                 </div>
             </form>
-            <br>
-            <div class="signup">Belum Punya Akun? <a href="3.daftar_akun.html">Daftar Sekarang</a></div>
         </div>
+    </div>
     <footer>
         <div class="footer-text">
             <h2>Supported by @KebunVanilli.id</h2>
         </div>
         <div class="facebook">
-            <img src="./img/fb.png" alt="" height="30px">
+            <a href="https://www.facebook.com/groups/722016154828714" target="_blank">
+                <img src="./img/fb.png" alt="" height="30px">
+            </a>
         </div>
         <div class="whatsapp">
-            <img src="./img/wa.png" alt="" height="30px" >
+            <a href="https://wa.wizard.id/ebf3dd" target="_blank">
+                <img src="./img/wa.png" alt="" height="30px" >
+            </a>
         </div>
         <div class="instagram">
-            <img src="./img/ig.png" alt="" height="30px" >
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./img/ig.png" alt="" height="30px" >
+            </a>
         </div>
     </footer>
 </body>
