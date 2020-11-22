@@ -437,9 +437,6 @@ button[type='button'] {
 .jumlah-produk-title{
     flex: 1;
 }
-.jumlah-produk-tambah{
-    flex: 1;
-}
 .pengiriman{
     margin: auto;
 }
