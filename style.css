@@ -204,10 +204,14 @@ button[type='button'] {
     border: 2px solid darkgreen;
     border-radius: 15px;
 }
-.edit-profil-title,.foto-profil,.button-edit-foto-profil,.button-simpan{
+.edit-profil-title,.foto-profil,.button-edit-foto-profil{
     display: flex;
     margin: 10px;
     justify-content: center;
+}
+.button-simpan{
+    display: flex;
+    margin-left: 270px;
 }
 .edit-profil-box{
     margin: 10px;
