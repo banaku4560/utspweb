@@ -32,16 +32,18 @@
         <div class="daftar-akun-box">
             <h2 class="daftar-akun-judul">Daftar Akun Baru</h2>
                 <div class="register">
-                    <input type="text" placeholder="Nama Lengkap"><br>
-                    <input type="text" placeholder="Alamat"><br>
-                    <input type="email" placeholder="E-mail"><br>
-                    <input type="text" placeholder="Nama Pengguna"><br>
-                    <input type="password" placeholder="Kata Sandi"><br>
-                    <input type="password" placeholder="Konfirmasi Kata Sandi"><br>
-                    <input type="text" placeholder="Nomor HP"><br>
-                    <a class="button-submit" href="login.html">
-                        <button>Submit</button>
-                    </a>
+                    <form name="form-register" action="login.html" onsubmit="return validateForm()" method="POST">
+                        <input type="text" name="Nama Lengkap"><br>
+                        <input type="text" name="Alamat"><br>
+                        <input type="email" name="E-mail"><br>
+                        <input type="username" name="Nama Pengguna"><br>
+                        <input type="password" name="Kata Sandi"><br>
+                        <input type="password" name="Konfirmasi Kata Sandi"><br>
+                        <input type="text" name="Nomor HP"><br>
+                        <a class="button-submit" href="login.html">
+                            <button>Submit</button>
+                        </a>
+                    </form>
                 </div>
             </form>
         </div>
