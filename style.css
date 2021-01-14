@@ -116,7 +116,6 @@ nav{
     display: flex;
 }
 .button-submit{
-    margin: 10px;
     display: flex;
     justify-content: center;
     text-decoration: none;
