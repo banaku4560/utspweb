@@ -19,6 +19,38 @@ function validate() {
         alert("Silahkan masukkan password.");
         return false;
     }
+    if (username == "bagusnayoko" && password == "bagus12345"){
     alert('Login berhasil');
+    }
     window.location = "\\beranda-logged-in.html";
+    return false;
+}
+
+function validateForm() {
+    var nama = document.forms["form-register"]["nama"].value;
+    var alamat = document.forms["form-register"]["alamat"].value;
+    var email = document.forms["form-register"]["email"].value;
+    var username = document.forms["form-register"]["username"].value;
+    var password = document.forms["form-register"]["password"].value;
+    if (nama == null || nama == "") {
+        alert("Harap isi kolom Nama Lengkap!");
+        return false;
+    }
+    if (alamat == null || alamat == "") {
+        alert("Harap isi kolom Alamat!");
+        return false;
+    }
+    if (email == null || email == "") {
+        alert("Harap isi kolom E-Mail!");
+        return false;
+    }
+    if (username == null || username == "") {
+        alert("Harap isi kolom Nama Pengguna!");
+        return false;
+    }
+    if (password == null || password == "") {
+        alert("Harap isi kolom Kata Sandi!");
+        return false;
+    }
+    alert('Registrasi Berhasil!');
 }
