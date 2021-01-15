@@ -11,19 +11,26 @@ function getInput(){
 function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if (username == null || username == "") {
-        alert("Silahkan masukkan username.")
-        return false;
-    }
-    if (password == null || password == "") {
-        alert("Silahkan masukkan password.");
-        return false;
-    }
     if (username == "bagusnayoko" && password == "bagus12345"){
-    alert('Login berhasil');
+        alert('Login berhasil');
+        window.location = "\\beranda-logged-in.html";
+        return false;
     }
-    window.location = "\\beranda-logged-in.html";
-    return false;
+    else {
+        if (username == null || username == "") {
+            alert("Silahkan masukkan username.")
+            return false;
+        }
+        if (password == null || password == "") {
+            alert("Silahkan masukkan password.");
+            return false;
+        }
+        else{
+            alert('Username atau Password salah!');
+            return false;
+        }
+    }
+       
 }
 
 function validateForm() {
