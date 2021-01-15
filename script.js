@@ -112,3 +112,23 @@ function validateEdit() {
     alert('Data telah diperbaharui!');
     window.location = "beranda-logged-in.html";
 }
+
+function validateEditPW() {
+    var pwold = document.forms["form-edit-password"]["pwold"].value;
+    var pwnew = document.forms["form-edit-password"]["pwnew"].value;
+    var pwnewre = document.forms["form-edit-password"]["pwnewre"].value;
+    if (pwold == null || pwold == "") {
+        alert("Harap isi password lama anda");
+        return false;
+    }
+    if (pwnew == null || pwnew == "") {
+        alert("Harap isi password baru");
+        return false;
+    }
+    if (pwnewre != pwnew || pwnewre == "") {
+        alert("Harap konfirmasi password baru anda");
+        return false;
+    }
+    alert('Data telah diperbaharui!');
+    window.location = "login.html";
+}
