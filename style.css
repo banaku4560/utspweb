@@ -446,8 +446,12 @@ button[type='button'] {
 .pengiriman{
     margin: auto;
 }
+.textbox-pengiriman{
+    justify-content: right  ;
+    margin: 10px;
+}
 .tombol-pengiriman{
-    margin: 30px 0px 30px 0px;
+    justify-content: center;
 }
 /*order*/
 

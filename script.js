@@ -67,3 +67,18 @@ function validateForm() {
     alert('Registrasi Berhasil!');
     window.location = "login.html";
 }
+
+function validateBuy() {
+    var alamatkirim = document.getElementById("alamatkirim").value;
+    var qty = document.getElementById("qty").value;
+    if (qty == 0 || qty == ""){
+        alert('Jumlah pembelian tidak boleh kosong!');
+        return false;
+    }
+    if (alamatkirim == null || alamatkirim == ""){
+        alert('Mohon isi alamat pengiriman');
+        return false;
+    }
+    alert('Pembelian berhasil!')
+    window.location = "beranda-order.html";
+}
