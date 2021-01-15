@@ -82,3 +82,33 @@ function validateBuy() {
     alert('Pembelian berhasil!')
     window.location = "beranda-order.html";
 }
+
+function validateEdit() {
+    var nama = document.forms["form-edit"]["namanew"].value;
+    var alamat = document.forms["form-edit"]["alamatnew"].value;
+    var email = document.forms["form-edit"]["emailnew"].value;
+    var username = document.forms["form-edit"]["usernamenew"].value;
+    var notelp = document.forms["form-edit"]["notelpnew"].value;
+    if (nama == null || nama == "") {
+        alert("Harap isi kolom Nama Lengkap!");
+        return false;
+    }
+    if (alamat == null || alamat == "") {
+        alert("Harap isi kolom Alamat!");
+        return false;
+    }
+    if (email == null || email == "") {
+        alert("Harap isi kolom E-Mail!");
+        return false;
+    }
+    if (username == null || username == "") {
+        alert("Harap isi kolom Nama Pengguna!");
+        return false;
+    }
+    if (notelp == null || notelp == "") {
+        alert("Harap isi kolom Nomor Telepon!");
+        return false;
+    }
+    alert('Data telah diperbaharui!');
+    window.location = "beranda-logged-in.html";
+}

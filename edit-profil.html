@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profil</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -35,25 +36,17 @@
     </header>
             <div class="edit-profil-main">
                 <h1 class="edit-profil-title">Edit Profil</h1>
-                <div class="foto-profil"> 
-                        <img width="100" src="./img/profil.jpg"/>
-                </div>
-                <div class="button-edit-foto-profil">
-                    <a href="edit-foto-profil.html">
-                        <button>Edit Foto Profil</button>
-                    </a>
-                </div>
                 <div class="edit-profil-box">
-                    <form id="form_edit" method="POST" name="form-edit">
-                        <input class="nama" type="text" name="nama" placeholder="Nama Lengkap">
-                        <input class="alamat" type="text" name="alamat" placeholder="Alamat">
-                        <input class="e-mail" type="email" name="email" placeholder="E-mail">
-                        <input class="username" type="text" name="username" placeholder="Nama Pengguna">
-                        <input class="notelp" type="text" name="notelp" placeholder="Nomor telepon">
-                    </form>
-                        <div class="button-simpan" onclick="getInput()">
-                            <button>Simpan</button> 
+                    <form method="POST" name="form-edit">
+                        <input class="nama" type="text" name="namanew" placeholder="Nama Lengkap">
+                        <input class="alamat" type="text" name="alamatnew" placeholder="Alamat">
+                        <input class="e-mail" type="email" name="emailnew" placeholder="E-mail">
+                        <input class="username" type="text" name="usernamenew" placeholder="Nama Pengguna">
+                        <input class="notelp" type="text" name="notelpnew" placeholder="Nomor telepon">
+                        <div class="button-simpan">
+                            <input type="button" value="Simpan" onclick="validateEdit();" />
                         </div>
+                    </form>
                         <div class="edit-password-link">
                             <a href="edit-password.html">Ubah Kata Sandi</a>
                         </div>

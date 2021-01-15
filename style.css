@@ -305,7 +305,7 @@ button[type='button'] {
 }
 .tambahkan-forum {
     background-color: lightgreen;
-    width: 70vh;
+    width: 200vh;
     height: 50vh;
     margin: 10px auto;
     border-radius: 15px;
@@ -325,7 +325,7 @@ button[type='button'] {
 .judul-forum-isi [type='text'] {
     border: 2px solid grey;
     border-radius: 5px;
-    height: 350px;
+    height: 200px;
 }
 .tombol-tambahkan{
     display: flex;
