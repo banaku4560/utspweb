@@ -132,3 +132,13 @@ function validateEditPW() {
     alert('Data telah diperbaharui!');
     window.location = "login.html";
 }
+
+function validateResp() {
+    var addResp = document.getElementById("addResp").value;
+    if (addResp == null || addResp == ""){
+        alert('Silahkan isi tanggapan anda');
+        return false;
+    }
+    alert('Tanggapan anda telah ditambahkan!')
+    window.location = "forumform.html"
+}

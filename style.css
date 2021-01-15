@@ -13,6 +13,8 @@ header{
     display: flex;
     margin: auto;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 /*navbar*/
@@ -455,13 +457,71 @@ button[type='button'] {
 }
 /*order*/
 
+/*forumform*/
+.header-forum2{
+    margin: 20px 10px 0px 10px auto;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    background-color: lightgreen;
+    border: solid darkgreen;
+    display: flex;
+    justify-content: space-around;
+}
+.judul-forum2{
+    flex: 4;
+}
+.author-forum2, .date-forum2{
+    flex: 1;
+    margin:5px;
+}
+.isi-forum2{
+    margin:0px 10px 0px 10px auto;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    background-color: lightgreen;
+    border: solid darkgreen;
+}
+.tanya-jawab2{
+    margin:0px 10px 0px 10px auto;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    background-color: lightgreen;
+    border: solid darkgreen;
+}
+.tanggapan{
+    display: flex;
+    margin: 10px;
+    width: 98%;
+    height: 80%;
+    background-color: lightgreen;
+    border: solid darkgreen;
+}
+.profil-tanggapan{
+    width: 12%;
+}
+.comment-box{
+    justify-content: space-around;
+    display: flex;
+    margin:0px 10px 0px 10px auto;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    background-color: lightgreen;
+    border: solid darkgreen;
+}
+
+/*forumform*/
+
 footer{
     background: linear-gradient(to bottom, #1aba0b, #ffffff);
     display: flex;
     width: 100%;
     margin: auto;
     align-items: center;
-    position: absolute;
+    position:-ms-page;
     bottom: 0;
 }
 
