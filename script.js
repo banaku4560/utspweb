@@ -38,6 +38,7 @@ function validateForm() {
     var alamat = document.forms["form-register"]["alamat"].value;
     var email = document.forms["form-register"]["email"].value;
     var username = document.forms["form-register"]["username"].value;
+    var notelp = document.forms["form-register"]["notelp"].value;
     var password = document.forms["form-register"]["password"].value;
     if (nama == null || nama == "") {
         alert("Harap isi kolom Nama Lengkap!");
@@ -55,9 +56,14 @@ function validateForm() {
         alert("Harap isi kolom Nama Pengguna!");
         return false;
     }
+    if (notelp == null || notelp == "") {
+        alert("Harap isi kolom Nomor Telepon!");
+        return false;
+    }
     if (password == null || password == "") {
         alert("Harap isi kolom Kata Sandi!");
         return false;
     }
     alert('Registrasi Berhasil!');
+    window.location = "login.html";
 }

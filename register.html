@@ -33,14 +33,15 @@
         <div class="daftar-akun-box">
             <h2 class="daftar-akun-judul">Daftar Akun Baru</h2>
                 <div class="register">
-                    <form name="form-register" action="/login.html" onsubmit="return validateForm()" method="post">
+                    <form name="form-register" method="post">
                         <input type="text" name="nama" placeholder="Nama Lengkap"><br>
                         <input type="text" name="alamat" placeholder="Alamat"><br>
                         <input type="email" name="email" placeholder="E-Mail"><br>
                         <input type="text" name="username" placeholder="Nama Pengguna"><br>
+                        <input type="text" name="notelp" placeholder="Nomor Telepon"><br>
                         <input type="password" name="password" placeholder="Kata Sandi"><br>
                         <div class="button-submit">
-                            <input type="submit" value="Submit">
+                            <input type="button" value="Submit" onclick="validateForm();" />
                         </div>
                     </form>
                 </div>
